@@ -230,6 +230,10 @@ body {
     padding: 20px 50px;
     border-radius: 40px;
     cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
     transition: var(--main-transition-du);
     animation: change-color 4s infinite ease-in-out;
 }
